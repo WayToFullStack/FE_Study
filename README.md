@@ -2,9 +2,9 @@
 
 ## 👥 참여 인원
 
-- [마현우](http://github.com/hw9402)
-- [이희성](http://github.com/lheesung)
-- [조우성](http://github.com/NameIsUser06)
+| ![마현우](https://avatars.githubusercontent.com/u/101539249?v=4) | ![이희성](https://avatars.githubusercontent.com/u/102288399?v=4) | ![조우성](https://avatars.githubusercontent.com/u/111692254?v=4) |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+|               [마현우](https://github.com/hw9402)                |              [이희성](https://github.com/lheesung)               |            [조우성](https://github.com/NameIsUser06)             |
 
 ## 🌏 진행 계획
 
