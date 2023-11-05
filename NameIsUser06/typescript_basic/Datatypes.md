@@ -16,6 +16,8 @@ a = 12; // error
 
 위와같이 작성해도 자동으로 문자열로 타입이 지정된다
 
+---
+
 ### 자료형
 
 - string
@@ -44,6 +46,8 @@ function infLoop(): never {
 }
 ```
 
+---
+
 ### 배열
 
 - datatype[]
@@ -54,6 +58,8 @@ let age1: number[] = [1, 2, 3];
 let age2: Array<number> = [1, 2, 3];
 ```
 
+---
+
 ### 튜플
 
 - [typename, typename]
@@ -62,6 +68,8 @@ let age2: Array<number> = [1, 2, 3];
 let b: [string, number];
 b = ["z", 1];
 ```
+
+---
 
 ### 열거형
 
@@ -74,6 +82,8 @@ enum Os {
 
 console.log(Os["Ios"]); // 10
 ```
+
+---
 
 ### null, undefined
 
