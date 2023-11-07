@@ -1,0 +1,62 @@
+## Literal 타입
+
+```typescript
+const userName1 = "Bob";
+let userName2: string | number = "Tom";
+```
+
+- const는 변하지 않는 상수를 정의할 때 사용한다.
+- let은 변할 수 있는 변수를 정의할 때 사용한다.
+
+## Union 타입
+
+```typescript
+interface Car {
+  name: "car";
+  color: string;
+  start(): void;
+}
+
+interface Mobile {
+  name: "mobile";
+  color: string;
+  call(): void;
+}
+
+function getGift(gift: Car | Mobile) {
+  console.log(gift.color);
+  if (gift.name === "car") {
+    gift.start();
+  } else {
+    gift.call();
+  }
+}
+```
+
+- 여러 타입을 가질 수 있게 하는 것이 Union 타입이다.
+- 둘의 타입이 공통으로 가지지 않는 속성에 접근하면 에러가 발생한다.
+  - 따라서 공통적이지 않은 속성을 사용할 때 타입 체크를 먼저 해줘야 한다.
+
+## Intersection 타입
+
+```typescript
+interface Car {
+  name: string;
+  start(): void;
+}
+
+interface Toy {
+  name: string;
+  color: string;
+  price: number;
+}
+
+const toyCar: Toy & Car = {
+  name: "타요",
+  start(): {},
+  color: "blue",
+  price: 1000,
+};
+```
+
+- 여러 타입을 합쳐서 사용할 때 Intersection 타입을 사용한다.
